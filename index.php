@@ -5,12 +5,16 @@
 	$f = fopen('ips.txt', 'w');
 	fwrite($f, $output);
 	fclose($f);
+?>
 
 
-
-	if (is_writable("ips.txt")) {
-		echo "true";
-	} else {
-		echo "false";
-	}
-	// echo "Your IP is $ipaddress!";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get Lost</title>
+</head>
+<body>
+	<img src="f.gif" alt="">
+</body>
+</html>
